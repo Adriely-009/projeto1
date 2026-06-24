@@ -1,0 +1,22 @@
+.imagem1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%; /* Ajuste o tamanho da imagem conforme necessário */
+    }
+.imagem2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%; /* Ajuste o tamanho da imagem conforme necessário */
+    }
+.imagem3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%; /* Ajuste o tamanho da imagem conforme necessário */
+    }
+    h1 {
+        text-align: center;
+      }
+      
