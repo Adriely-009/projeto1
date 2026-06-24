@@ -9,14 +9,48 @@
     margin-left: auto;
     margin-right: auto;
     width: 25%; /* Ajuste o tamanho da imagem conforme necessário */
+    border: 5px solid #d4af37d8;
     }
 .imagem3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 25%; /* Ajuste o tamanho da imagem conforme necessário */
+    border: 5px solid #d4af37d8;
     }
-    h1 {
-        text-align: center;
-      }
-      
+h1 {
+    text-align: center;
+    color: #bf9f34;
+    }
+p {
+    text-align: center;
+    }
+button{
+    background-color: #d4af37d8;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    border: none;
+    align-items: center;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; 
+    
+    }
+
+
+button:hover {
+    background-color:#c69f1f ;
+    }
+
+    body{
+        background-color: #fdffc0;
+        color: black;
+        font-size: 30px;
+    }
+
+hr{
+    background-color: #D4AF37;
+}
