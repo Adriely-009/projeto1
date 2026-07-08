@@ -4,7 +4,16 @@ function botao(){
     alert("Agradeço pelo seu feedback")
 }
 
-function botao2(){
-    let email = prompt("Digite seu E-mail")
-    
+function verificar() {  
+    email = prompt("Digite seu E-mail")
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (regex.test(email)) {
+        document.body.innerText = "E-mail válido";
+        elementoTexto.style.color = "green";
+    } else {
+        document.body.innerText = "E-mail inválido";
+        elementoTexto.style.color = "red"; 
+    }
 }
+
+

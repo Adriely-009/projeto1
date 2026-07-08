@@ -7,10 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="script.js"></script>
+        <input type="text" id="campoEmail" placeholder="Digite seu e-mail">
+        <button onclick="verificarEmail()">Verificar</button>
+        <p id="mensagemResultado"></p>
+        <script>
+            function verificarEmail() {
 
-    <h1>Olá </h1>
-    <button onclick="botao2()">E-mail</button>
+                let email = document.getElementById("campoEmail").value;
+                
+                let resultado = document.getElementById("mensagemResultado");
+    
+                let regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                if (regexEmail.test(email)) {
+                    resultado.innerText = "E-mail válido!";
+                    resultado.style.color = "green"; 
+                } else {
+                    resultado.innerText = "E-mail inválido!";
+                    resultado.style.color = "red";   
+                }
+            }
+        </script>
     
 </body>
 </html>
