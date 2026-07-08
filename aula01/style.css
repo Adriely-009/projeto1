@@ -49,8 +49,29 @@ button:hover {
         background-color: #fdffc0;
         color: black;
         font-size: 30px;
+        justify-content: center;
     }
 
 hr{
     background-color: #D4AF37;
 }
+
+.botao-link{
+    background-color: #d4af37d8;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+    border: none;
+    align-items: center;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; 
+    margin: 0 auto; 
+    }
+
+
+.botao-link:hover {
+    background-color:#c69f1f ;
+    }
